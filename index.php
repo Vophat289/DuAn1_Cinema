@@ -1,1 +1,5 @@
-<h1>Xin chào</h1>
+
+=======
+<h1>Phát test  git
+</h1>
+>>>>>>> Phát
