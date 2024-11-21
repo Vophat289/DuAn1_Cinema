@@ -19,7 +19,7 @@
                 <input type="text" class="search-bar" placeholder="Tìm phim, rạp... ">
             </div>
             <div class="navbar-login">
-                <a href="#">Đăng Nhập</a>
+                <a href="login.php">Đăng Nhập</a>
             </div>
             
         </div>
