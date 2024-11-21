@@ -109,11 +109,11 @@
 
     <!-- Biểu tượng mạng xã hội -->
     <div class="footer-social">
-        <a href="#"><img src="../img/anh8.png" alt="Facebook"></a>
-        <a href="#"><img src="../img/anh11.png" alt="YouTube"></a>
-        <a href="#"><img src="../img/anh7.png" alt="Email"></a>
-        <a href="#"><img src="../img/anh9.png" alt="Zalo"></a>
-        <a href="#"><img src="../img/anh10.png" alt="TikTok"></a>
+        <a href="#"><img src="../img/fb.png" alt="Facebook"></a>
+        <a href="#"><img src="../img/ytb.png" alt="YouTube"></a>
+        <a href="#"><img src="../img/mail.png" alt="Email"></a>
+        <a href="#"><img src="../img/zl.png" alt="Zalo"></a>
+        <a href="#"><img src="../img/tiktok.png" alt="TikTok"></a>
     </div>
 </div>
 </body>
