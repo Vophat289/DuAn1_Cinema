@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Phim Sắp Chiếu</title>
     <style>
-    /* Toàn bộ giao diện */
+   /* Toàn bộ giao diện */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -332,7 +332,7 @@ h1 {
                 <input type="text" class="search-bar" placeholder="Tìm phim, rạp... ">
             </div>
             <div class="navbar-login">
-                <a href="#">Đăng Nhập</a>
+                <a href="login.php">Đăng Nhập</a>
             </div>
             
         </div>
@@ -385,7 +385,7 @@ h1 {
     <div class="footer-content">
         <!-- Logo -->
         <div class="footer-logo">
-            <img src="../img/2.png" alt="Glide Cinema Logo">
+            <img src="../img/logo.png" alt="Glide Cinema Logo">
 
         </div>
 
@@ -429,10 +429,10 @@ h1 {
 
     <!-- Biểu tượng mạng xã hội -->
     <div class="footer-social">
-        <a href="#"><img src="../img/facebook-icon.png" alt="Facebook"></a>
-        <a href="#"><img src="../img/youtube-icon.png" alt="YouTube"></a>
+        <a href="#"><img src="../img/hinh8.png" alt="Facebook"></a>
+        <a href="#"><img src="../img/hinh11.png" alt="YouTube"></a>
         <a href="#"><img src="../img/email-icon.png" alt="Email"></a>
-        <a href="#"><img src="../img/zalo-icon.png" alt="Zalo"></a>
+        <a href="#"><img src="../img/hinh9.png" alt="Zalo"></a>
         <a href="#"><img src="../img/tiktok-icon.png" alt="TikTok"></a>
     </div>
 </div>
