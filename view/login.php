@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Đăng Nhập & Đăng Ký</title>
-    <link rel="stylesheet" href="./css/login.css">
+    <link rel="stylesheet" href="../css/login.css">
     <body>
     <!-- Thanh điều hướng -->
     <div class="navbar">
         <div class="navbar-logo">
-            <img src="../img/2.png" alt="Logo">
+            <img src="../img/logo.png" alt="Logo">
         </div>
         <div class="navbar-menu">
             <a href="#" class="btn-yellow">ĐẶT VÉ NGAY</a>
@@ -144,11 +144,11 @@
 
     <!-- Biểu tượng mạng xã hội -->
     <div class="footer-social">
-        <a href="#"><img src="view/../img/facebook-icon.png" alt="Facebook"></a>
-        <a href="#"><img src="view/../img/youtube-icon.png" alt="YouTube"></a>
-        <a href="#"><img src="view/../img/email-icon.png" alt="Email"></a>
-        <a href="#"><img src="view/../img/zalo-icon.png" alt="Zalo"></a>
-        <a href="#"><img src="view/../img/tiktok-icon.png" alt="TikTok"></a>
+        <a href="#"><img src="../img/facebook-icon.png" alt="Facebook"></a>
+        <a href="#"><img src="../img/youtube-icon.png" alt="YouTube"></a>
+        <a href="#"><img src="../img/email-icon.png" alt="Email"></a>
+        <a href="#"><img src="../img/zalo-icon.png" alt="Zalo"></a>
+        <a href="#"><img src="../img/tiktok-icon.png" alt="TikTok"></a>
     </div>
 </div>
 </body>
