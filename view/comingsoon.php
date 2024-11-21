@@ -324,7 +324,7 @@ h1 {
     <!-- Thanh điều hướng -->
         <div class="navbar">
             <div class="navbar-logo">
-                <img src="../img/2.png" alt="Logo">
+                <img src="../img/logo.png" alt="Logo">
             </div>
             <div class="navbar-menu">
                 <a href="#" class="btn-yellow">ĐẶT VÉ NGAY</a>
@@ -385,14 +385,14 @@ h1 {
     <div class="footer-content">
         <!-- Logo -->
         <div class="footer-logo">
-            <img src="../img/2.png" alt="Glide Cinema Logo">
+            <img src="../img/logo.png" alt="Glide Cinema Logo">
 
         </div>
 
         <!-- Các cột liên kết -->
         <div class="footer-links">
             <div>
-                <h3>TÀI KHOẢN</h3>
+                <h3>Tài Khoản</h3>
                 <a href="#">Đăng nhập</a>
                 <a href="#">Đăng ký</a>
                 <a href="#">Membership</a>
@@ -409,7 +409,7 @@ h1 {
                 <a href="#">Suất chiếu đặc biệt</a>
             </div>
             <div>
-                <h3>JET HOANG</h3>
+                <h3>Thông Tin</h3>
                 <a href="#">Giới thiệu</a>
                 <a href="#">Liên hệ</a>
                 <a href="#">Tuyển dụng</a>
@@ -429,11 +429,11 @@ h1 {
 
     <!-- Biểu tượng mạng xã hội -->
     <div class="footer-social">
-        <a href="#"><img src="../img/facebook-icon.png" alt="Facebook"></a>
-        <a href="#"><img src="../img/youtube-icon.png" alt="YouTube"></a>
-        <a href="#"><img src="../img/email-icon.png" alt="Email"></a>
-        <a href="#"><img src="../img/zalo-icon.png" alt="Zalo"></a>
-        <a href="#"><img src="../img/tiktok-icon.png" alt="TikTok"></a>
+        <a href="#"><img src="../img/facebook.png" alt="Facebook"></a>
+        <a href="#"><img src="../img/youtube.png" alt="YouTube"></a>
+        <a href="#"><img src="../img/gmail.webp" alt="Email"></a>
+        <a href="#"><img src="../img/zalo.png" alt="Zalo"></a>
+        <a href="#"><img src="../img/tiktok.png" alt="TikTok"></a>
     </div>
 </div>
 
