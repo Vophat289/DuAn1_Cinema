@@ -8,7 +8,6 @@
 </head>
 <body>
 
-    <!-- Thanh điều hướng -->
         <div class="navbar">
             <div class="navbar-logo">
                 <img src="../img/logo.png" alt="Logo">
@@ -24,13 +23,9 @@
             
         </div>
 
-    <!-- Tiêu đề -->
     <h1>Phim Sắp Chiếu</h1>
-
-    <!-- Danh sách phim -->
     <div class="movies-grid">
         <?php
-        // Giả sử đây là dữ liệu các phim
         $movies = [
             ["title" => "DOMINO: Lối Thoát Cuối Cùng", "image" => "../img/loithoatcuoicung.jpg", "trailer" => "https://www.youtube.com/watch?v=f2FCeOxiEbo"],
             ["title" => "Quỷ Ăn Tạng 2", "image" => "../img/quy-an-tang-2.jpg", "trailer" => "https://www.youtube.com/watch?v=xVVZvSybaEc"],
@@ -48,7 +43,6 @@
             ["title" => "Địa Đạo: Mặt Trời Trong Bóng Tối", "image" => "../img/Diadao2024.jpg", "trailer" => "https://www.youtube.com/watch?v=4Fhs9-B9IHo"],
             ["title" => "Công Tử Bạc Liêu", "image" => "../img/contubaclieu.jpg", "trailer" => "https://www.youtube.com/watch?v=7oVbS8zQxQ0"],
             ["title" => "Linh Miêu: Quỷ Nhập Tràng", "image" => "../img/linhmieu.jpg", "trailer" => "https://www.youtube.com/watch?v=8l4crgVt36Y"],
-            // Thêm phim khác
         ];
 
         foreach ($movies as $movie) {
@@ -70,13 +64,11 @@
 
     <div class="footer">
     <div class="footer-content">
-        <!-- Logo -->
         <div class="footer-logo">
             <img src="../img/logo.png" alt="Glide Cinema Logo">
 
         </div>
 
-        <!-- Các cột liên kết -->
         <div class="footer-links">
             <div>
                 <h3>Tài Khoản</h3>
@@ -113,8 +105,7 @@
             </div>
         </div>
     </div>
-
-    <!-- Biểu tượng mạng xã hội -->
+    
     <div class="footer-social">
         <a href="#"><img src="../img/facebook.png" alt="Facebook"></a>
         <a href="#"><img src="../img/youtube.png" alt="YouTube"></a>
