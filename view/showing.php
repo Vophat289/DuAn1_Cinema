@@ -24,13 +24,10 @@
             
         </div>
 
-    <!-- Tiêu đề -->
     <h1>Phim Sắp Chiếu</h1>
 
-    <!-- Danh sách phim -->
     <div class="movies-grid">
         <?php
-        // Giả sử đây là dữ liệu các phim
         $movies = [
             ["title" => "Ba Đêm Kinh Hoàng", "image" => "../img/ba_dem_kinh_hoang_.jpg", "trailer" => "https://www.youtube.com/watch?v=xXVtZpw2s6s"],
             ["title" => "Chiêu Hồn Vong Nhi", "image" => "../img/chieuhonvongnhi.jpg", "trailer" => "https://www.youtube.com/watch?v=auV7ult9YD0"],
@@ -48,7 +45,6 @@
             ["title" => "Trêu Rồi Yêu", "image" => "../img/takagi.jpg", "trailer" => "https://www.youtube.com/watch?v=JeRfRVNi28w"],
             ["title" => "Hẹn Hò Với Sát Nhân", "image" => "../img/hen_ho_voi_sat_nhan.jpg", "trailer" => "https://www.youtube.com/watch?v=pbuqe1unXDA"],
             ["title" => "Mộ Đom Đóm", "image" => "../img/modomdom.jpg", "trailer" => "https://www.youtube.com/watch?v=CpcQcKIDYFs"],
-            // Thêm phim khác
         ];
 
         foreach ($movies as $movie) {
@@ -70,13 +66,11 @@
 
     <div class="footer">
     <div class="footer-content">
-        <!-- Logo -->
         <div class="footer-logo">
             <img src="../img/logo.png" alt="Glide Cinema Logo">
 
         </div>
 
-        <!-- Các cột liên kết -->
         <div class="footer-links">
             <div>
                 <h3>Tài Khoản</h3>
@@ -114,7 +108,6 @@
         </div>
     </div>
 
-    <!-- Biểu tượng mạng xã hội -->
     <div class="footer-social">
         <a href="#"><img src="../img/facebook.png" alt="Facebook"></a>
         <a href="#"><img src="../img/youtube.png" alt="YouTube"></a>
