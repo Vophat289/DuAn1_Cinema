@@ -7,8 +7,6 @@
     <link rel="stylesheet" href="../css/comingsoon.css">
 </head>
 <body>
-
-    <!-- Thanh điều hướng -->
         <div class="navbar">
             <div class="navbar-logo">
                 <img src="../img/logo.png" alt="Logo">
@@ -24,31 +22,26 @@
             
         </div>
 
-    <!-- Tiêu đề -->
     <h1>Phim Sắp Chiếu</h1>
-
-    <!-- Danh sách phim -->
     <div class="movies-grid">
         <?php
-        // Giả sử đây là dữ liệu các phim
         $movies = [
-            ["title" => "DOMINO: Lối Thoát Cuối Cùng", "image" => "../img/loithoatcuoicung.jpg", "trailer" => "#"],
-            ["title" => "Quỷ Ăn Tạng 2", "image" => "../img/quy-an-tang-2.jpg", "trailer" => "#"],
-            ["title" => "VENOM: Kèo Cuối", "image" => "../img/venom.jpg", "trailer" => "#"],
-            ["title" => "An Lạc", "image" => "../img/anlac.jpg", "trailer" => "#"],
-            ["title" => "Trò Chơi Nhân Tính", "image" => "../img/trochoinhantinh.jpg", "trailer" => "#"],
-            ["title" => "Mật Mã Đỏ", "image" => "../img/redone.jpg", "trailer" => "#"],
+            ["title" => "DOMINO: Lối Thoát Cuối Cùng", "image" => "../img/loithoatcuoicung.jpg", "trailer" => "https://www.youtube.com/watch?v=f2FCeOxiEbo"],
+            ["title" => "Quỷ Ăn Tạng 2", "image" => "../img/quy-an-tang-2.jpg", "trailer" => "https://www.youtube.com/watch?v=xVVZvSybaEc"],
+            ["title" => "VENOM: Kèo Cuối", "image" => "../img/venom.jpg", "trailer" => "https://www.youtube.com/watch?v=I1q-jmvPNn0"],
+            ["title" => "An Lạc", "image" => "../img/anlac.jpg", "trailer" => "https://www.youtube.com/watch?v=e5d99hQeY6k"],
+            ["title" => "Trò Chơi Nhân Tính", "image" => "../img/trochoinhantinh.jpg", "trailer" => "https://www.youtube.com/watch?v=KvmVQpkv4Pw"],
+            ["title" => "Mật Mã Đỏ", "image" => "../img/redone.jpg", "trailer" => "https://www.youtube.com/watch?v=2T_mKyH17mY"],
             ["title" => "Phá Tổ Quỷ", "image" => "../img/pha-to-quy.webp", "trailer" => "#"],
-            ["title" => "Tính Hiệu Cầu Cứu", "image" => "../img/tinhieucaucuu.jpg", "trailer" => "#"],
-            ["title" => "Biệt Đội HotGirl", "image" => "../img/bietdoihotgirl.jpg", "trailer" => "#"],
-            ["title" => "Võ Sĩ Giác Đấu II", "image" => "../img/GLADIATOR_II.jpg", "trailer" => "#"],
-            ["title" => "Hành Trình Của MOANA 2", "image" => "../img/moana-2.webp", "trailer" => "#"],
-            ["title" => "KRAVEN - Thợ Săn Thủ Lĩnh", "image" => "../img/thosanthulinh.jpg", "trailer" => "#"],
-            ["title" => "Ngày Xưa Có Một Chuyện Tình", "image" => "../img/ngay-xua-co-1-chuyen-tinh.jpg", "trailer" => "#"],
-            ["title" => "Địa Đạo: Mặt Trời Trong Bóng Tối", "image" => "../img/Diadao2024.jpg", "trailer" => "#"],
-            ["title" => "Công Tử Bạc Liêu", "image" => "../img/contubaclieu.jpg", "trailer" => "#"],
-            ["title" => "Linh Miêu: Quỷ Nhập Tràng", "image" => "../img/linhmieu.jpg", "trailer" => "#"],
-            // Thêm phim khác
+            ["title" => "Tính Hiệu Cầu Cứu", "image" => "../img/tinhieucaucuu.jpg", "trailer" => "https://www.youtube.com/watch?v=C4TA8A2WLrw"],
+            ["title" => "Biệt Đội HotGirl", "image" => "../img/bietdoihotgirl.jpg", "trailer" => "https://www.youtube.com/watch?v=GCxopxk_BwY"],
+            ["title" => "Võ Sĩ Giác Đấu II", "image" => "../img/GLADIATOR_II.jpg", "trailer" => "https://www.youtube.com/watch?v=R4AFSgUGEEs"],
+            ["title" => "Hành Trình Của MOANA 2", "image" => "../img/moana-2.webp", "trailer" => "https://www.youtube.com/watch?v=B6WjBuyT9JI"],
+            ["title" => "KRAVEN - Thợ Săn Thủ Lĩnh", "image" => "../img/thosanthulinh.jpg", "trailer" => "https://www.youtube.com/watch?v=VMBuRU2meqo"],
+            ["title" => "Ngày Xưa Có Một Chuyện Tình", "image" => "../img/ngay-xua-co-1-chuyen-tinh.jpg", "trailer" => "https://www.youtube.com/watch?v=qaeHlk0OXec"],
+            ["title" => "Địa Đạo: Mặt Trời Trong Bóng Tối", "image" => "../img/Diadao2024.jpg", "trailer" => "https://www.youtube.com/watch?v=4Fhs9-B9IHo"],
+            ["title" => "Công Tử Bạc Liêu", "image" => "../img/contubaclieu.jpg", "trailer" => "https://www.youtube.com/watch?v=7oVbS8zQxQ0"],
+            ["title" => "Linh Miêu: Quỷ Nhập Tràng", "image" => "../img/linhmieu.jpg", "trailer" => "https://www.youtube.com/watch?v=8l4crgVt36Y"],
         ];
 
         foreach ($movies as $movie) {
@@ -70,13 +63,10 @@
 
     <div class="footer">
     <div class="footer-content">
-        <!-- Logo -->
         <div class="footer-logo">
             <img src="../img/logo.png" alt="Glide Cinema Logo">
-
         </div>
 
-        <!-- Các cột liên kết -->
         <div class="footer-links">
             <div>
                 <h3>Tài Khoản</h3>
@@ -114,7 +104,6 @@
         </div>
     </div>
 
-    <!-- Biểu tượng mạng xã hội -->
     <div class="footer-social">
         <a href="#"><img src="../img/facebook.png" alt="Facebook"></a>
         <a href="#"><img src="../img/youtube.png" alt="YouTube"></a>
