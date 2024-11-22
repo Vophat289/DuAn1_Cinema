@@ -8,7 +8,6 @@
 </head>
 <body>
 
-    <!-- Thanh điều hướng -->
         <div class="navbar">
             <div class="navbar-logo">
                 <img src="../img/logo.png" alt="Logo">
@@ -24,31 +23,27 @@
             
         </div>
 
-    <!-- Tiêu đề -->
     <h1>Phim Sắp Chiếu</h1>
 
-    <!-- Danh sách phim -->
     <div class="movies-grid">
         <?php
-        // Giả sử đây là dữ liệu các phim
         $movies = [
-            ["title" => "Ba Đêm Kinh Hoàng", "image" => "../img/ba_dem_kinh_hoang_.jpg", "trailer" => "#"],
-            ["title" => "Chiêu Hồn Vong Nhi", "image" => "../img/chieuhonvongnhi.jpg", "trailer" => "#"],
-            ["title" => "Cám", "image" => "../img/cam.jpg", "trailer" => "#"],
-            ["title" => "Robot Hoang Dã", "image" => "../img/robot.jpg", "trailer" => "#"],
-            ["title" => "Joker", "image" => "../img/joker.jpg", "trailer" => "#"],
-            ["title" => "Hai Muối", "image" => "../img/haimuoi.jpg", "trailer" => "#"],
-            ["title" => "Cậu Bé Cá Heo", "image" => "../img/caubecaheo.jpg", "trailer" => "#"],
-            ["title" => "Bảo Bối Của Ông", "image" => "../img/baoboicuaong.jpg", "trailer" => "#"],
-            ["title" => "Shin: Nhật Kí Khủng Long", "image" => "../img/shin.jpg", "trailer" => "#"],
-            ["title" => "Transformers One", "image" => "../img/transformers.jpg", "trailer" => "#"],
-            ["title" => "Thần Dược", "image" => "../img/thanduoc.jpg", "trailer" => "#"],
-            ["title" => "Đố Anh Còng Được Tôi", "image" => "../img/doanhcongduoctoi.jpg", "trailer" => "#"],
-            ["title" => "Học Viện Anh Hùng: You're Next", "image" => "../img/hoc-vien-anh-hung.webp", "trailer" => "#"],
-            ["title" => "Trêu Rồi Yêu", "image" => "../img/takagi.jpg", "trailer" => "#"],
-            ["title" => "Hẹn Hò Với Sát Nhân", "image" => "../img/hen_ho_voi_sat_nhan.jpg", "trailer" => "#"],
-            ["title" => "Mộ Đom Đóm", "image" => "../img/modomdom.jpg", "trailer" => "#"],
-            // Thêm phim khác
+            ["title" => "Ba Đêm Kinh Hoàng", "image" => "../img/ba_dem_kinh_hoang_.jpg", "trailer" => "https://www.youtube.com/watch?v=xXVtZpw2s6s"],
+            ["title" => "Chiêu Hồn Vong Nhi", "image" => "../img/chieuhonvongnhi.jpg", "trailer" => "https://www.youtube.com/watch?v=auV7ult9YD0"],
+            ["title" => "Cám", "image" => "../img/cam.jpg", "trailer" => "https://www.youtube.com/watch?v=_8qUFEmPQbc"],
+            ["title" => "Robot Hoang Dã", "image" => "../img/robot.jpg", "trailer" => "https://www.youtube.com/watch?v=2l8_FNIBWLM"],
+            ["title" => "Joker", "image" => "../img/joker.jpg", "trailer" => "https://www.youtube.com/watch?v=gxWLZoMT2MU"],
+            ["title" => "Hai Muối", "image" => "../img/haimuoi.jpg", "trailer" => "https://www.youtube.com/watch?v=MjxPoqCvvVs"],
+            ["title" => "Cậu Bé Cá Heo", "image" => "../img/caubecaheo.jpg", "trailer" => "https://www.youtube.com/watch?v=hCmAntZAK2I"],
+            ["title" => "Bảo Bối Của Ông", "image" => "../img/baoboicuaong.jpg", "trailer" => "https://www.youtube.com/watch?v=6KxlC1Bt3C4"],
+            ["title" => "Shin: Nhật Kí Khủng Long", "image" => "../img/shin.jpg", "trailer" => "https://www.youtube.com/watch?v=5ugNOvwNycw"],
+            ["title" => "Transformers One", "image" => "../img/transformers.jpg", "trailer" => "https://www.youtube.com/watch?v=WLqCKr2h1BI"],
+            ["title" => "Thần Dược", "image" => "../img/thanduoc.jpg", "trailer" => "https://www.youtube.com/watch?v=zBIDSp17AOo"],
+            ["title" => "Đố Anh Còng Được Tôi", "image" => "../img/doanhcongduoctoi.jpg", "trailer" => "https://www.youtube.com/watch?v=JgUWVooKSrA"],
+            ["title" => "Học Viện Anh Hùng: You're Next", "image" => "../img/hoc-vien-anh-hung.webp", "trailer" => "https://www.youtube.com/watch?v=O_JcwpDergM"],
+            ["title" => "Trêu Rồi Yêu", "image" => "../img/takagi.jpg", "trailer" => "https://www.youtube.com/watch?v=JeRfRVNi28w"],
+            ["title" => "Hẹn Hò Với Sát Nhân", "image" => "../img/hen_ho_voi_sat_nhan.jpg", "trailer" => "https://www.youtube.com/watch?v=pbuqe1unXDA"],
+            ["title" => "Mộ Đom Đóm", "image" => "../img/modomdom.jpg", "trailer" => "https://www.youtube.com/watch?v=CpcQcKIDYFs"],
         ];
 
         foreach ($movies as $movie) {
@@ -70,13 +65,10 @@
 
     <div class="footer">
     <div class="footer-content">
-        <!-- Logo -->
         <div class="footer-logo">
             <img src="../img/logo.png" alt="Glide Cinema Logo">
-
         </div>
 
-        <!-- Các cột liên kết -->
         <div class="footer-links">
             <div>
                 <h3>Tài Khoản</h3>
@@ -114,7 +106,6 @@
         </div>
     </div>
 
-    <!-- Biểu tượng mạng xã hội -->
     <div class="footer-social">
         <a href="#"><img src="../img/facebook.png" alt="Facebook"></a>
         <a href="#"><img src="../img/youtube.png" alt="YouTube"></a>
