@@ -1,0 +1,211 @@
+/* Cài đặt chung */
+body {
+    font-family: Arial, sans-serif;
+    background: url('your-background-image.jpg') no-repeat center center/cover;
+    margin: 0;
+    padding: 0;
+}
+
+.payment-container {
+    max-width: 900px;
+    margin: 50px auto;
+    background: #663399;
+    color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 28px;
+    color: #f9c744;
+}
+
+/* Wrapper cho 2 phần chính */
+.payment-wrapper {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+/* Phần bên trái */
+.form-section {
+    flex: 1;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+form label {
+    display: block;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #f9c744;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="tel"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+    background: #ffffff;
+    color: #fff;
+}
+form input [type=checkbox]{
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+    background: #ffffff;
+    color: #fff;
+}
+/* Checkbox với 2 dòng label */
+.checkbox {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.checkbox div {
+    display: flex;
+    align-items: center;
+}
+
+.checkbox input[type="checkbox"] {
+    margin-right: 8px;
+}
+
+.checkbox label {
+    font-size: 14px;
+    color: #fff;
+    line-height: 1.2;
+}
+
+
+/* Phần bên phải */
+.details-section {
+    width:300px;
+    border-radius: 10px;
+    display: flex; 
+    flex-wrap: wrap;
+    background-color: #ffc700;
+    color: #000000;
+    padding: 20px;
+    margin-right:50px;
+    border-radius: 10px;
+    font-family: Arial, sans-serif;
+}
+
+.movie-title {
+    margin-top:40px;
+    font-size: 24px;
+    color: #000000;
+    flex: 1;
+}
+
+.movie-image {
+    margin-right:100px;
+    width: 30%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.details-section p {
+    width: 100%;
+    font-size: 14px;
+    line-height: 1.6;
+    margin-top: 10px;
+}
+
+
+/* Phần nút thanh toán */
+.payment-methods {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+button {
+    flex: 1;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 16px;
+    text-align: center;
+}
+
+button img {
+    width: 20px;
+    height: auto;
+}
+
+button.momo {
+    background: #ffffff;
+    color: #000000;
+}
+
+button.visa {
+    background: #ffffff;
+    color: #000000;
+}
+
+button.napas {
+    background: #ffffff;
+    color: #000000;
+}
+
+.discount-code {
+    display: flex;
+    gap: 5px;
+    
+}
+
+.discount-code label {
+    font-size: 16px;
+    color: white;
+    width: 100%; 
+    text-align: center;
+}
+
+.discount-code select {
+    width: 100%; /* Đặt chiều rộng đầy đủ */
+    padding: 10px; /* Thêm khoảng cách bên trong */
+    text-align: center; /* Canh giữa chữ */
+    text-align-last: center; /* Canh giữa chữ trong các option */
+    font-size: 16px; /* Tùy chỉnh kích thước chữ */
+    border: 1px solid #ccc; /* Đường viền */
+    border-radius: 5px; /* Bo tròn góc */
+    background-color: #f9f9f9; /* Màu nền */
+}
+
+.discount-code select option {
+    background-color: #f44336; /* Màu nền cho các lựa chọn */
+    color: white;
+}
+
+
+
+/* Nút thanh toán chính */
+.pay-now {
+    width: 50%;
+    margin: 0 auto;
+    padding: 10px;
+    font-size: 16px;
+    background: black; /*#d32f2f*/
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
