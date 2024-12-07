@@ -9,15 +9,14 @@ class AdminController extends Controller
 
         // Lấy thống kê vé bán hàng ngày
         $ticketSales = $this->model('ticket')->getDailySales();
-
         // Tổng số phim
         $totalMovies = $this->model('movie')->count();
 
         // Tổng số phòng
-        $totalRooms = $this->model('room')->count();
+        // $totalRooms = $this->model('room')->count();
 
         // Tổng số ghế
-        $totalSeats = $this->model('seat')->getTotalSeats();
+        // $totalSeats = $this->model('seat')->getTotalSeats();
         
         // Top 6 phim doanh thu cao nhất
         $topMovies = $this->model('ticket')->getTopMovies();
@@ -27,8 +26,8 @@ class AdminController extends Controller
             'monthlySales' => $monthlySales,
             'ticketSales' => $ticketSales,
             'totalMovies' => $totalMovies->fetch_assoc()['total_movies'],
-            'totalRooms' => $totalRooms->fetch_assoc()['total_rooms'],
-            'totalSeats' => $totalSeats,
+            // 'totalRooms' => $totalRooms->fetch_assoc()['total_rooms'],
+            // 'totalSeats' => $totalSeats,
             'topMovies' => $topMovies
         ]);
     }
@@ -464,7 +463,19 @@ public function editMovie($id_phim)
             redirect('/admin');
         }
     }
-
+    public function blockUser($id)
+    {
+        if ($this->model('customer')->blockUser($id)) {
+            $_SESSION['success'] = 'Người dùng đã được chặn thành công.';
+        } else {
+            $_SESSION['error'] = 'Có lỗi xảy ra trong quá trình chặn người dùng.';
+        }
+    
+        // Chuyển hướng về trang danh sách người dùng
+        header('Location: ' . route('admin/customerlist'));
+        exit;
+    }
+    
     public function reviews()
     {
 
